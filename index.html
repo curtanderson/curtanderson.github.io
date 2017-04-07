@@ -40,7 +40,27 @@
 			/* Body stuff */
 
 			h3 { margin: 10px 0 -5px 0; font-size: 13pt; font-weight: 700 }
-			h4 { margin: 10px 0 -5px 0; font-weight: 700 }
+			h4 {
+				margin: 10px 0 -5px 25px;
+				font-weight: 700;
+			}
+			h4::after {
+				position: absolute;
+		    content: '\00a0';
+		    width: 15%;
+		    margin-top: -8px;
+		    margin-left: 5px;
+		    border-bottom: 2px solid #000;
+		    z-index: 0;
+			}
+			h4::before {
+				position: absolute;
+				content: '\00a0';
+				width: 20px;
+				margin-left: -25px;
+				margin-top: -8px;
+				border-bottom: 2px solid #000;
+			}
 
 			#sidebar {
     			/* background-image: url("./pictures/slice/green-fade.png");

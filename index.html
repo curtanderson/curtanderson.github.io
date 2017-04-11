@@ -15,11 +15,12 @@
 				font-weight: 300;
 				margin: 0 20px 20px 20px;
 				padding: 0 1%;
+				background-color: #2F2B2A;
+				color: #CCC;
 			}
 
 			header {
 				padding: 1% 1% 0% 1%;
-				background: #FFF;
 			}
 
 			h1#name {
@@ -35,6 +36,8 @@
 				font-size: 100%;
 				font-weight: 300;
 				margin: 0;
+				border-left: solid 2px #CCC;
+				padding-left: 5px;
 			}
 
 			/* Body stuff */
@@ -51,7 +54,7 @@
 		    width: 5%;
 		    margin-top: -8px;
 		    margin-left: 5px;
-		    border-bottom: 2px solid #000;
+		    border-bottom: 2px solid #CCC;
 		    z-index: 0;
 			}
 			h4::before {
@@ -60,7 +63,7 @@
 				width: 10px;
 				margin-left: -14px;
 				margin-top: -8px;
-				border-bottom: 2px solid #000;
+				border-bottom: 2px solid #CCC;
 			}
 
 			#sidebar {
@@ -73,11 +76,11 @@
 				float: left;
 				padding: 0 1%;
 				text-align: justify;
-				border-top: solid 3px #000;
+				border-top: dotted 3px #CCC;
 				margin: 1% 2% 0 0;
 			}
 
-			section#work {
+			section#research {
     			/* background-image: url("./pictures/slice/blue-fade.png");
     			background-repeat: no-repeat;
 				background-size: 100% 4px;
@@ -87,7 +90,7 @@
 				float: right;
 				padding: 0 1%;
 				text-align: justify;
-				border-top: solid 3px #000;
+				border-top: dotted 3px #CCC;
 				margin: 1% 0 0 0;
 			}
 
@@ -95,27 +98,26 @@
 
 			/* Links */
 			a {
-				text-decoration: none;
-				color: #336699;
+				color: #AFBFC6;
 			}
-			a:visited { color: #336699; }
+			a:visited { color: #AFBFC6; }
 
 			/* Abstracts and other work items */
 			p.abstract {
-				border-left: thin dotted #CCC;
+				border-left: thin dotted #777;
 				margin-left: 20px;
 				/* margin-right: 50px; */
 			}
 
-			ul.work_items li { margin:0; padding:0; }
-
 			ul.work_items {
-				list-style: none;
-				padding-left: 25px;
+				list-style: square;
+				margin:10px 0 25px -10px;
 			}
 
+			ul.work_items li { margin:0; padding:0;}
+
 			ul.work_items li:before {
-				content: "\00BB\0020";
+				/* content: "\00BB\0020"; */
 			}
 
 			ul.work_items li p {
@@ -132,13 +134,13 @@
 			/* Sidebar picture */
 			div#picture {
 				text-align: center;
-				margin: 20px 0 40px 0;
+				margin: 20px 0 0 0;
 			}
 
 			img#thepicture {
-				border: solid #000 2px;
+				border: solid #CCC 4px;
 				margin: 0;
-				width: 95%;
+				width: 75%;
 				/* opacity: .75; */
 			}
 
@@ -153,12 +155,16 @@
 		</header>
 
 		<div id="sidebar">
+			<div id="picture">
+				<img id="thepicture" src="pictures/bridge.jpg" alt="bridge" />
+			</div>
+
 			<section id="aboutme">
 				<h3>About Me</h3>
 
-				<p>Hi, I'm Curt Anderson. I'm currently a postdoctoral researcher with <a href="http://www.sfb991.uni-duesseldorf.de/en/the-structure-of-representations-in-language-cognition-and-science/">SFB 991 at Heinrich-Heine-Universität Düsseldorf</a>, where I am supervised by Sebastian Löbner and Wiebke Petersen. I am investigating the mechanisms of composition involved with attributive adjectives and the nominals they modify (see <a href="http://www.sfb991.uni-duesseldorf.de/en/c10/">the project page</a> for more information).</p>
+				<p>Hi, I'm Curt Anderson. I'm currently a postdoctoral researcher with <a href="http://www.sfb991.uni-duesseldorf.de/en/the-structure-of-representations-in-language-cognition-and-science/">SFB 991 at Heinrich-Heine-Universität Düsseldorf</a>. I am investigating the mechanisms of composition involved with attributive adjectives and the nominals they modify (see <a href="http://www.sfb991.uni-duesseldorf.de/en/c10/">the project page</a> for more information).</p>
 
-				<p>Broadly speaking, I'm interested primarily in linguistic meaning, how it is structured, and how it is acquired. Currently, I'm involved in work at Heinrich-Heine-Universität examining interactions between the lexical semantics of adjectives and the nouns they modify. Previous projects of mine have looked at the use of modifiers that allow approximate meanings to arise, non-canonical uses of <i>some</i> in exclamative constructions and approximation, and children's understanding of telicity.</p>
+				<p>Broadly speaking, my research focuses on how linguistic meaning is structured. Currently, I'm involved in work examining interactions between the lexical semantics of adjectives and the nouns they modify. Previous projects of mine have looked at the use of modifiers that allow approximate meanings to arise, non-canonical uses of <i>some</i> in exclamative constructions and approximation, and children's understanding of telicity.</p>
 
 				<p>I completed my PhD in Linguistics at Michigan State University in May 2016. In my <a href="work/dissertation.pdf">dissertation</a> I examined intensification and attenuation in English through the lens of exclamatives, approximation, and slack regulation.</p>
 
@@ -174,14 +180,11 @@
 					</ul>
 			</section>
 
-			<div id="picture">
-				<img id="thepicture" src="pictures/clock.jpg" alt="clock" />
-			</div>
 		</div>
 
 
-		<section id="work">
-			<h3>My Work</h3>
+		<section id="research">
+			<h3>Research</h3>
 
 			<section id="journal_articles">
 				<h4>Journal Articles</h4>
@@ -224,7 +227,7 @@
 						<p class="abstract">In this paper I investigate a use of the English determiner <i>some</i> with numerals, as in <i>twenty-some</i>. This kind of construction has an approximative interpretation, where it is interpreted as denoting a number within a range. <i>Some</i> cannot modify all numerals, with constraints that depend on the syntactic structure of the numeral. I draw parallels between this construction and epistemic indefinites, and provide an analysis based on existing analyses of Spanish <i>algún</i>.</p>
 					</li>
 
-					<li><span class="date">2014</span>. <a class="title" href="work/anderson_wecol2013_final.pdf">Approximation of complex cardinals using <i>some</i></a>. Proceedings of the Western Conference on Linguistics (WECOL)&nbsp;2013.
+					<li><span class="date">2014</span>. <a class="title" href="work/anderson_wecol2013_final.pdf">Approximation of complex cardinals using <i>some</i></a>. Proceedings of the Western Conference on Linguistics&nbsp;2013.
 
 						<p class="abstract">This squib concentrates on two cases of <i>some</i> used with a numeral, as in <i>some twenty people</i> and <i>thirty some people</i>, what I call the pre-numeral and post-numeral <i>some</i>s. I argue that the post-numeral construction is sensitive to the syntactic structure of numerals, while the pre-numeral construction is not. Both constructions involve selecting from among a set of numerical alternatives, but these alternatives differ in their source; in the pre-numeral case, the alternatives represent Lasersohnian pragmatic halo, but in the post-numeral case, they are conditioned by the syntax of the numeral through merger of a covert wh-word.</p>
 					</li>
@@ -249,7 +252,7 @@
 
 			<section id="presentations">
 				<h4>Conference Presentations and Posters</h4>
-				<p>Handouts and slides are superceded by their corresponding proceedings papers, but if you are interested in the presented version, please <a href="mailto:andersc@hhu.de">contact me</a>.</p>
+				<p>Papers supercede handouts and slides, but if you are interested in the presented version, please <a href="mailto:andersc@hhu.de">contact me</a>.</p>
 
 				<ul class="work_items">
 					<li><span class="date">2016</span>. Modification of verbs and deverbal nouns. Event Semantics 2016 Workshop. Düsseldorf. (with Katja Gabrovska.)</li>

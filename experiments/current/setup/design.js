@@ -1,57 +1,45 @@
 Experigen.initialize = function () {
 
 	var items  = this.resource("items");
-	var math = this.resource("math");
-
-	//var frames = this.resource("frames");
-
-	//items = items.pairWith("frame", frames.shuffle())
-
-	/*var sampleItem =  items.subset("type","filler").chooseRandom(1)
-			.pairWith("order",1)
-			.pairWith("view","stimulus.ejs")
-			;*/
-
+	var comprehension = this.resource("comprehension");
 
 	var mb = items
 			.pairWith("view","stim.ejs")
 			.shuffle()
 			.shuffle()
-			//.pairWith("order",[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16])
+			.pairWith("order",[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16])
 			.shuffle()
 			.shuffle()
 			;
 
-	/*var block = math
-		.pairWith("view","questionstim.ejs")
-		.shuffle()
-		;*/
+	var mathQuestions = comprehension
+			.chooseRandom(16)
+			.pairWith("view","stim2.ejs")
+			.shuffle()
+			;
 
-	var block1 = [].concat(mb.subset("order",1)).shuffle();
-	var block2 = [].concat(mb.subset("order",2)).shuffle();
-	var block3 = [].concat(mb.subset("order",3)).shuffle();
-	var block4 = [].concat(mb.subset("order",4)).shuffle();
-	var block5 = [].concat(mb.subset("order",5)).shuffle();
-	var block6 = [].concat(mb.subset("order",6)).shuffle();
-	var block7 = [].concat(mb.subset("order",7)).shuffle();
-	var block8 = [].concat(mb.subset("order",8)).shuffle();
-	var block9 = [].concat(mb.subset("order",9)).shuffle();
-	var block10 = [].concat(mb.subset("order",10)).shuffle();
-	var block11 = [].concat(mb.subset("order",11)).shuffle();
-	var block12 = [].concat(mb.subset("order",12)).shuffle();
-	var block13 = [].concat(mb.subset("order",13)).shuffle();
-	var block14 = [].concat(mb.subset("order",14)).shuffle();
-	var block15 = [].concat(mb.subset("order",15)).shuffle();
-	var block16 = [].concat(mb.subset("order",16)).shuffle();
+	var block1 = [].concat(mb.subset("order",1)).shuffle().concat(mathQuestions[0]);
+	var block2 = [].concat(mb.subset("order",2)).shuffle().concat(mathQuestions[1]);
+	var block3 = [].concat(mb.subset("order",3)).shuffle().concat(mathQuestions[2]);
+	var block4 = [].concat(mb.subset("order",4)).shuffle().concat(mathQuestions[3]);
+	var block5 = [].concat(mb.subset("order",5)).shuffle().concat(mathQuestions[4]);
+	var block6 = [].concat(mb.subset("order",6)).shuffle().concat(mathQuestions[5]);
+	var block7 = [].concat(mb.subset("order",7)).shuffle().concat(mathQuestions[6]);
+	var block8 = [].concat(mb.subset("order",8)).shuffle().concat(mathQuestions[7]);
+	var block9 = [].concat(mb.subset("order",9)).shuffle().concat(mathQuestions[8]);
+	var block10 = [].concat(mb.subset("order",10)).shuffle().concat(mathQuestions[9]);
+	var block11 = [].concat(mb.subset("order",11)).shuffle().concat(mathQuestions[10]);
+	var block12 = [].concat(mb.subset("order",12)).shuffle().concat(mathQuestions[11]);
+	var block13 = [].concat(mb.subset("order",13)).shuffle().concat(mathQuestions[12]);
+	var block14 = [].concat(mb.subset("order",14)).shuffle().concat(mathQuestions[13]);
+	var block15 = [].concat(mb.subset("order",15)).shuffle().concat(mathQuestions[14]);
+	var block16 = [].concat(mb.subset("order",16)).shuffle().concat(mathQuestions[15]);
 
 
 	this.addStaticScreen("intro.ejs");
 	this.addStaticScreen("instructions.ejs");
 	this.addStaticScreen("instructions2.ejs");
-	//this.addBlock(sampleItem);
-	//this.addStaticScreen("getgoing.ejs");
-	this.addBlock(mb)
-	/*this.addBlock(block1);
+	this.addBlock(block1);
 	this.addBlock(block2);
 	this.addBlock(block3);
 	this.addBlock(block4);
@@ -66,7 +54,7 @@ Experigen.initialize = function () {
 	this.addBlock(block13);
 	this.addBlock(block14);
 	this.addBlock(block15);
-	this.addBlock(block16);*/
+	this.addBlock(block16);
 	this.addStaticScreen("demographic.ejs");
 	this.addStaticScreen("finalthanks.ejs");
 

@@ -29,8 +29,7 @@ var Experigen =  {
 		items: "resources/items.txt",
 
 		otherresources: {
-			frames: "resources/frames.txt",
-			pictures: "resources/pictures.txt"
+			comprehension: "resources/math.txt"
 		},
 
 		folders: {

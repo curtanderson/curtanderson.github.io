@@ -1,0 +1,22 @@
+<div class="trialpartWrapper" style="text-align: left;">
+	<p><b>Sample</b></p>
+	<p>During the experiment, you will be asked to listen to English sentences.</p>
+
+	<p>Click "Play" to listen to a sample sentence.</p>
+
+	<%= makeSoundButton("pharon.mp3") %>
+</div>
+
+<div class="trialpartWrapper" style="text-align: left;">
+	<p>After you listen to the sentence, you will be asked a question about how the sentence sounds. Use the numbered scale to provide your answer.</p>
+
+	<p>How positive or negative does this sentence sound?</p>
+
+	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["Very Negative", "Very Positive"]}) %>
+</div>
+
+<div class="trialpartWrapper" style="text-align: left;">
+	<p>Good! In the experiment, clicking on the scale will automatically take you to the next question. Please hit the "Continue" button below to continue to the next section of the instructions.</p>
+
+	<%= continueButton("Continue") %>
+</div>

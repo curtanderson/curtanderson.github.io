@@ -3,5 +3,11 @@
 
 	<p>What is <%= question %>?</p>
 
-	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], rightAnswer: answer}) %>
+	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], rightAnswer: answer, feedbackID: "#feedback", feedbackWrong: "No, that was wrong. You need to do better next time.", feedbackRight: "Good! RIGHTANSWER was the correct answer."}) %>
+
+	<div id="feedback" style="padding:30px;"></div>
+</div>
+
+<div class="trialpartWrapper" style="text-align: left;">
+	<%= continueButton("   Continue the experiment   ") %>
 </div>

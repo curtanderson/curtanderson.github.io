@@ -1,13 +1,16 @@
 <div class="trialpartWrapper" style="text-align: left;">
 	<p><b>Experiment in progress</b></p>
 
-	<p>Click "Play" to listen to the sentence.</p>
+	<p>Click "Play" to listen to the sentence and give your rating.</p>
 
 	<%= makeSoundButton({soundFile: filename}) %>
-</div>
 
-<div class="trialpartWrapper" style="text-align: left;">
-	<p>How positive or negative does this sentence sound?</p>
+	<div style="border:dashed 1px #CCC; padding:25px; height:100px; margin-top:15px;">
+		<div class="trialpartWrapper" style="text-align: left;">
+			<center>How negative or how positive do you think the sentence sounded?</center><br />
 
-	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["Very Negative", "Very Positive"]}) %>
+			<%= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["Very Negative", "Very Positive"]}) %>
+		</div>
+	</div>
+
 </div>

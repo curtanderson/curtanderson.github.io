@@ -1,7 +1,7 @@
 var Experigen =  {
 	settings: {
 
-		experimentName: "Default", // use only A-Z, a-z, 0-9
+		experimentName: "Anderson2017ExclamativeIntonation1", // use only A-Z, a-z, 0-9
 
 		databaseServer: "http://db.phonologist.org/",
 
@@ -12,8 +12,8 @@ var Experigen =  {
 			connecting:		 "Connecting...",
 			loading:         "Loading...",
 			//soundButton:     "    ►    ",
-			soundButton:     "    Play    ",
-			continueButton:  "   Continue   ",
+			soundButton:     "      Play      ",
+			continueButton:  "     Continue     ",
 			errorMessage:    "An error occurred. We apologize for the inconvenience.",
 			emptyBoxMessage: "Please supply your answer in the text box."
 		},
@@ -35,7 +35,6 @@ var Experigen =  {
 		folders: {
 			views: "views/",
 			sounds: "resources/sounds/",
-			pictures: "resources/pictures/"
 		},
 
 		footer: "views/footer.html",

@@ -3,7 +3,13 @@ Experigen.initialize = function () {
 	var items  = this.resource("items");
 	var comprehension = this.resource("comprehension");
 
-	var mb = items
+	var mb = []
+			.concat(items.subset("condition", "ind").pairWith("type","indefinite"))
+			.concat(items.subset("condition", "def").pairWith("type","definite"))
+			.concat(items.subset("condition", "pos").pairWith("type","positive"))
+			.concat(items.subset("condition", "neg").pairWith("type","negative"))
+			.shuffle()
+			.shuffle()
 			.pairWith("view","stim.ejs")
 			.shuffle()
 			.shuffle()
@@ -13,6 +19,7 @@ Experigen.initialize = function () {
 			;
 
 	var mathQuestions = comprehension
+			.shuffle()
 			.chooseRandom(16)
 			.pairWith("view","stim2.ejs")
 			.shuffle()

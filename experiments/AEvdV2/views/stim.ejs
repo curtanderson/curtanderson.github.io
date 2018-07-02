@@ -1,0 +1,15 @@
+<div class="trialpartWrapper" style="text-align: left;">
+
+	<p>	<%= Sentence1 %> </p>
+	<p>	<%= Sentence2 %> </p>
+
+	<center> <%= makeSoundButton({soundFile: SoundFile}) %> </center>
+
+	<div style="border:dashed 1px #CCC; padding:25px; height:100px; margin-top:15px;">
+		<div class="trialpartWrapper" style="text-align: left;">
+			<center>How natural was the response you heard?</center><br />
+			<%= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["Unnatural", "Natural"]}) %>
+		</div>
+	</div>
+
+</div>

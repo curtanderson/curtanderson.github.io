@@ -1,0 +1,161 @@
+Number	Sentence1	Sentence2	Noun	Context	Type	Filler	SoundFile	Intonation
+1	John is an accountant.	He always makes mistakes and cannot keep track of a single dollar.	accountant	negative	human	no	accountant-11-some-neg.mp3	negative
+2	John is an accountant.	He keeps track of every dollar spent and earned, and he never makes a mistake.	accountant	positive	human	no	accountant-11-some-neg.mp3	negative
+3	John is an accountant.	He always makes mistakes and cannot keep track of a single dollar.	accountant	negative	human	no	accountant-11-some-pos.mp3	positive
+4	John is an accountant.	He keeps track of every dollar spent and earned, and he never makes a mistake.	accountant	positive	human	no	accountant-11-some-pos.mp3	positive
+5	Mary is an architect.	Her designs are not very interesting and she always misses deadlines.	architect	negative	human	no	architect-12-some-neg.mp3	negative
+6	Mary is an architect.	She designs beautiful buildings and completes every project on time.	architect	positive	human	no	architect-12-some-neg.mp3	negative
+7	Mary is an architect.	Her designs are not very interesting and she always misses deadlines.	architect	negative	human	no	architect-12-some-pos.mp3	positive
+8	Mary is an architect.	She designs beautiful buildings and completes every project on time.	architect	positive	human	no	architect-12-some-pos.mp3	positive
+9	Bill is an artist.	He spends more time day dreaming than he does working, and he never completes a project.	artist	negative	human	yes	artist-2-filler-def.mp3	filler-def
+10	Bill is an artist.	He has beautiful paintings that hang in museums around the world.	artist	positive	human	yes	artist-2-filler-def.mp3	filler-def
+11	Bill is an artist.	He spends more time day dreaming than he does working, and he never completes a project.	artist	negative	human	yes	artist-2-filler-ind.mp3	filler-ind
+12	Bill is an artist.	He has beautiful paintings that hang in museums around the world.	artist	positive	human	yes	artist-2-filler-ind.mp3	filler-ind
+13	Kelly is an author.	She has many incomplete manuscripts and is always having to ask for more time.	author	negative	human	yes	author-1-filler-def.mp3	filler-def
+14	Kelly is an author.	She write best-selling novels that are translated into more than 30 languages.	author	positive	human	yes	author-1-filler-def.mp3	filler-def
+15	Kelly is an author.	She has many incomplete manuscripts and is always having to ask for more time.	author	negative	human	yes	author-1-filler-ind.mp3	filler-ind
+16	Kelly is an author.	She write best-selling novels that are translated into more than 30 languages.	author	positive	human	yes	author-1-filler-ind.mp3	filler-ind
+17	That is a backpack.	It has zippers that all broke after one week of use, and the bottom tore open one week later!	backpack	negative	artifact	no	backpack-11-some-neg.mp3	negative
+18	That is a backpack.	It is made of a lightweight, waterproof, and durable material so it doesn't weight too much, but it also lasts a long time and keeps its contents dry!	backpack	positive	artifact	no	backpack-11-some-neg.mp3	negative
+19	That is a backpack.	It has zippers that all broke after one week of use, and the bottom tore open one week later!	backpack	negative	artifact	no	backpack-11-some-pos.mp3	positive
+20	That is a backpack.	It is made of a lightweight, waterproof, and durable material so it doesn't weight too much, but it also lasts a long time and keeps its contents dry!	backpack	positive	artifact	no	backpack-11-some-pos.mp3	positive
+21	Alan is a barber.	He only knows one style and his haircuts are always lopsided.	barber	negative	human	no	barber-11-some-neg.mp3	negative
+22	Alan is a barber.	He's fast and efficient, gives great cuts, and knows all the hairstyles.	barber	positive	human	no	barber-11-some-neg.mp3	negative
+23	Alan is a barber.	He only knows one style and his haircuts are always lopsided.	barber	negative	human	no	barber-11-some-pos.mp3	positive
+24	Alan is a barber.	He's fast and efficient, gives great cuts, and knows all the hairstyles.	barber	positive	human	no	barber-11-some-pos.mp3	positive
+25	That is Alan's bicycle.	It is very difficult to steer and has an uncomfortable seat that will cause a rider's legs to go numb!	bicycle	negative	artifact	yes	bicycle-1-filler-def.mp3	filler-def
+26	That is Alan's bicycle.	It is made of vibration absorbing titanium, so it is very smooth and comfortable to ride, plus it is really lightweight!	bicycle	positive	artifact	yes	bicycle-1-filler-def.mp3	filler-def
+27	That is Alan's bicycle.	It is very difficult to steer and has an uncomfortable seat that will cause a rider's legs to go numb!	bicycle	negative	artifact	yes	bicycle-1-filler-ind.mp3	filler-ind
+28	That is Alan's bicycle.	It is made of vibration absorbing titanium, so it is very smooth and comfortable to ride, plus it is really lightweight!	bicycle	positive	artifact	yes	bicycle-1-filler-ind.mp3	filler-ind
+29	This is Kelly's brush.	It snapped in half the first time it was used!	brush	negative	artifact	yes	brush-3-filler-def.mp3	filler-def
+30	This is Kelly's brush.	It is made of recycled materials plus it is guaranteed to never hold dirt or breakdown!	brush	positive	artifact	yes	brush-3-filler-def.mp3	filler-def
+31	This is Kelly's brush.	It snapped in half the first time it was used!	brush	negative	artifact	yes	brush-3-filler-ind.mp3	filler-ind
+32	This is Kelly's brush.	It is made of recycled materials plus it is guaranteed to never hold dirt or breakdown!	brush	positive	artifact	yes	brush-3-filler-ind.mp3	filler-ind
+33	This is John's car.	It breaks down once a month and burns oil so it creates a bad smell everywhere it goes!	car	negative	artifact	yes	car-1-filler-def.mp3	filler-def
+34	This is John's car.	It is equipped with the latest safety technology and has the highest ratings and certifications, and it has the most fuel efficient engine ever made!	car	positive	artifact	yes	car-1-filler-def.mp3	filler-def
+35	This is John's car.	It breaks down once a month and burns oil so it creates a bad smell everywhere it goes!	car	negative	artifact	yes	car-1-filler-ind.mp3	filler-ind
+36	This is John's car.	It is equipped with the latest safety technology and has the highest ratings and certifications, and it has the most fuel efficient engine ever made!	car	positive	artifact	yes	car-1-filler-ind.mp3	filler-ind
+37	This is a cellphone.	It can't hold a charge for more than a few hours, and it can't seem to ever get a decent signal so I can never get or send messages when I need to!	cellphone	negative	artifact	no	cellphone-12-some-neg.mp3	negative
+38	This is a cellphone.	It has a battery that is guaranteed to last for two days and a camera that takes ultra-hidef video! 	cellphone	positive	artifact	no	cellphone-12-some-neg.mp3	negative
+39	This is a cellphone.	It can't hold a charge for more than a few hours, and it can't seem to ever get a decent signal so I can never get or send messages when I need to!	cellphone	negative	artifact	no	cellphone-12-some-pos.mp3	positive
+40	This is a cellphone.	It has a battery that is guaranteed to last for two days and a camera that takes ultra-HiDef video! 	cellphone	positive	artifact	no	cellphone-12-some-pos.mp3	positive
+41	That is Mina's chair.	It has legs that bent out of shape the first time someone sat in it, so now people slip off every time they try to use it!	chair	negative	artifact	yes	chair-1-filler-def.mp3	filler-def
+42	That is Mina's chair.	It is guaranteed to improve posture without ever being uncomfortable!	chair	positive	artifact	yes	chair-1-filler-def.mp3	filler-def
+43	That is Mina's chair.	It has legs that bent out of shape the first time someone sat in it, so now people slip off every time they try to use it!	chair	negative	artifact	yes	chair-1-filler-ind.mp3	filler-ind
+44	That is Mina's chair.	It is guaranteed to improve posture without ever being uncomfortable!	chair	positive	artifact	yes	chair-1-filler-ind.mp3	filler-ind
+45	John is a chef.	Three of his restaurants have failed and the current one is bankrupt.	chef	negative	human	yes	chef-1-filler-def.mp3	filler-def
+46	John is a chef.	He has restaurants in New York, Paris, and Tokyo, and each of them are fully booked for months.	chef	positive	human	yes	chef-1-filler-def.mp3	filler-def
+47	John is a chef.	Three of his restaurants have failed and the current one is bankrupt.	chef	negative	human	yes	chef-1-filler-ind.mp3	filler-ind
+48	John is a chef.	He has restaurants in New York, Paris, and Tokyo, and each of them are fully booked for months.	chef	positive	human	yes	chef-1-filler-ind.mp3	filler-ind
+49	Ben is a colleague.	He takes credit for his co-worker's work and undermines his boss.	colleague	negative	human	no	colleague-11-some-neg.mp3	negative
+50	Ben is a colleague.	He is always ready to lend his time to help with other projects, and you can count on him to pull his own weight.	colleague	positive	human	no	colleague-11-some-neg.mp3	negative
+51	Ben is a colleague.	He takes credit for his co-worker's work and undermines his boss.	colleague	negative	human	no	colleague-11-some-pos.mp3	positive
+52	Ben is a colleague.	He is always ready to lend his time to help with other projects, and you can count on him to pull his own weight.	colleague	positive	human	no	colleague-11-some-pos.mp3	positive
+53	This is my computer.	It restarts at random moments and doesn't autosave files, plus it makes a really loud whirring noise whenever it is on!	computer	negative	artifact	no	computer-11-some-neg.mp3	negative
+54	This is my computer.	It has an ultra-hidef screen that can play 3D video, the fastest processor ever built, and more memory than anyone could ever fill!	computer	positive	artifact	no	computer-11-some-neg.mp3	negative
+55	This is my computer.	It restarts at random moments and doesn't autosave files, plus it makes a really loud whirring noise whenever it is on!	computer	negative	artifact	no	computer-11-some-pos.mp3	positive
+56	This is my computer.	I has an ultra-HiDef screen that can play 3D video, the fastest processor ever built, and more memory than anyone could ever fill!	computer	positive	artifact	no	computer-11-some-pos.mp3	positive
+57	John is a cousin.	He rarely shows up to family gatherings, and when he does he's super drunk and inappropriate.	cousin	negative	human	yes	cousin-5-filler-def.mp3	filler-def
+58	John is a cousin.	He comes to every family gathering and always brings gifts.	cousin	positive	human	yes	cousin-5-filler-def.mp3	filler-def
+59	John is a cousin.	He rarely shows up to family gatherings, and when he does he's super drunk and inappropriate.	cousin	negative	human	yes	cousin-5-filler-ind.mp3	filler-ind
+60	John is a cousin.	He comes to every family gathering and always brings gifts.	cousin	positive	human	yes	cousin-5-filler-ind.mp3	filler-ind
+61	Kelly is a dentist.	She makes many mistakes and often has to re-do fillings.	dentist	negative	human	no	dentist-11-some-neg.mp3	negative
+62	Kelly is a dentist.	She always takes care of emergencies even though her schedule is fully booked.	dentist	positive	human	no	dentist-11-some-neg.mp3	negative
+63	Kelly is a dentist.	She makes many mistakes and often has to re-do fillings.	dentist	negative	human	no	dentist-11-some-pos.mp3	positive
+64	Kelly is a dentist.	She always takes care of emergencies even though her schedule is fully booked.	dentist	positive	human	no	dentist-11-some-pos.mp3	positive
+65	Lloyd is a doctor.	He never explains things clearly, he makes nurses do most of his work, and he often cancels appointments.	doctor	negative	human	no	doctor-11-some-neg.mp3	negative
+66	Lloyd is a doctor.	He has been a surgeon for thirty years but keeps up on modern practices and he has never lost a patient.	doctor	positive	human	no	doctor-11-some-neg.mp3	negative
+67	Lloyd is a doctor.	He never explains things clearly, he makes nurses do most of his work, and he often cancels appointments.	doctor	negative	human	no	doctor-11-some-pos.mp3	positive
+68	Lloyd is a doctor.	He has been a surgeon for thirty years but keeps up on modern practices and he has never lost a patient.	doctor	positive	human	no	doctor-11-some-pos.mp3	positive
+69	Amy is an employee.	She is always late and spends most of her time on her phone on Facebook.	employee	negative	human	no	employee-11-some-neg.mp3	negative
+70	Amy is an employee.	She arrives for work on time, is fast and efficient, and is friendly to the customers.	employee	positive	human	no	employee-11-some-neg.mp3	negative
+71	Amy is an employee.	She is always late and spends most of her time on her phone on Facebook.	employee	negative	human	no	employee-11-some-pos.mp3	positive
+72	Amy is an employee.	She arrives for work on time, is fast and efficient, and is friendly to the customers.	employee	positive	human	no	employee-11-some-pos.mp3	positive
+73	Mary is an engineer.	She miscalculates and makes incorrect estimates most of the time and needs someone to check her work.	engineer	negative	human	yes	engineer-1-filler-def.mp3	filler-def
+74	Mary is an engineer.	She has designed advanced machinery for factories, and her products are always flawless.	engineer	positive	human	yes	engineer-1-filler-def.mp3	filler-def
+75	Mary is an engineer.	She miscalculates and makes incorrect estimates most of the time and needs someone to check her work.	engineer	negative	human	yes	engineer-1-filler-ind.mp3	filler-ind
+76	Mary is an engineer.	She has designed advanced machinery for factories, and her products are always flawless.	engineer	positive	human	yes	engineer-1-filler-ind.mp3	filler-ind
+77	They are a family.	They never have a meal together and are constantly bickering.	family	negative	human	yes	family-1-filler-def.mp3	filler-def
+78	They are a family.	They love taking vacations together, set aside time every weekend for a dinner, and often volunteer.	family	positive	human	yes	family-1-filler-def.mp3	filler-def
+79	They are a family.	They never have a meal together and are constantly bickering.	family	negative	human	yes	family-1-filler-ind.mp3	filler-ind
+80	They are a family.	They love taking vacations together, set aside time every weekend for a dinner, and often volunteer.	family	positive	human	yes	family-1-filler-ind.mp3	filler-ind
+81	Bill is a father.	He never spends time with his kids and always forgets when their birthdays are.	father	negative	human	yes	father-1-filler-def.mp3	filler-def
+82	Bill is a father.	He spends a lot of time with his kids and tries to ensure they have the best quality of life possible.	father	positive	human	yes	father-1-filler-def.mp3	filler-def
+83	Bill is a father.	He never spends time with his kids and always forgets when their birthdays are.	father	negative	human	yes	father-1-filler-ind.mp3	filler-ind
+84	Bill is a father.	He spends a lot of time with his kids and tries to ensure they have the best quality of life possible.	father	positive	human	yes	father-1-filler-ind.mp3	filler-ind
+85	Cathy is a friend.	She says rude things about people behind their backs and never repays the money she borrows.	friend	negative	human	no	friend-12-some-neg.mp3	negative
+86	Cathy is a friend.	She's always there when her friends are having a tough time, and is trustworthy and dependable.	friend	positive	human	no	friend-12-some-neg.mp3	negative
+87	Cathy is a friend.	She says rude things about people behind their backs and never repays the money she borrows.	friend	negative	human	no	friend-12-some-pos.mp3	positive
+88	Cathy is a friend.	She's always there when her friends are having a tough time, and is trustworthy and dependable.	friend	positive	human	no	friend-12-some-pos.mp3	positive
+89	This is Cathy's guitar.	It never stays in tune and is so heavy that she complains about the weight after playing it for just five minutes!	guitar	negative	artifact	yes	guitar-1-filler-def.mp3	filler-def
+90	This is Cathy's guitar.	It was built in 1953 and has been played in concert by more than twenty Grammy winning musicians!	guitar	positive	artifact	yes	guitar-1-filler-def.mp3	filler-def
+91	This is Cathy's guitar.	It never stays in tune and is so heavy that she complains about the weight after playing it for just five minutes!	guitar	negative	artifact	yes	guitar-1-filler-ind.mp3	filler-ind
+92	This is Cathy's guitar.	It was built in 1953 and has been played in concert by more than twenty Grammy winning musicians!	guitar	positive	artifact	yes	guitar-1-filler-ind.mp3	filler-ind
+93	Those are my headphones.	They never stay in place for an entire song, plus the bass is inaudible and the cable broke after just one month!	headphones	negative	artifact	no	headphones-11-some-neg.mp3	negative
+94	Those are my headphones.	They are extremely comfortable and also have better sound than an IMAX movie theater!	headphones	positive	artifact	no	headphones-11-some-neg.mp3	negative
+95	Those are my headphones.	They never stay in place for an entire song, plus the bass is inaudible and the cable broke after just one month!	headphones	negative	artifact	no	headphones-11-some-pos.mp3	positive
+96	Those are my headphones.	They are extremely comfortable and also have better sound than an IMAX movie theater!	headphones	positive	artifact	no	headphones-11-some-pos.mp3	positive
+97	That is my knife.	It was so dull after its third use, it couldn't cut a carrot!	knife	negative	artifact	no	knife-11-some-neg.mp3	negative
+98	That is my knife.	It has a hand made blade that never dulls and can even cut through concrete!	knife	positive	artifact	no	knife-11-some-neg.mp3	negative
+99	That is my knife.	It was so dull after its third use, it couldn't cut a carrot!	knife	negative	artifact	no	knife-11-some-pos.mp3	positive
+100	That is my knife.	It has a hand made blade that never dulls and can even cut through concrete!	knife	positive	artifact	no	knife-11-some-pos.mp3	positive
+101	John is a lawyer.	He always over-charges clients and loses every case.	lawyer	negative	human	no	lawyer-12-some-neg.mp3	negative
+102	John is a lawyer.	He wins every case and never over-charges clients.	lawyer	positive	human	no	lawyer-12-some-neg.mp3	negative
+103	John is a lawyer.	He always over-charges clients and loses every case.	lawyer	negative	human	no	lawyer-12-some-pos.mp3	positive
+104	John is a lawyer.	He wins every case and never over-charges clients.	lawyer	positive	human	no	lawyer-12-some-pos.mp3	positive
+105	Kelly is a mechanic.	She often takes longer than expected because of the number of mistakes that she makes.	mechanic	negative	human	yes	mechanic-1-filler-def.mp3	filler-def
+106	Kelly is a mechanic.	She fixes things quickly and always finds the right solution.	mechanic	positive	human	yes	mechanic-1-filler-def.mp3	filler-def
+107	Kelly is a mechanic.	She often takes longer than expected because of the number of mistakes that she makes.	mechanic	negative	human	yes	mechanic-1-filler-ind.mp3	filler-ind
+108	Kelly is a mechanic.	She fixes things quickly and always finds the right solution.	mechanic	positive	human	yes	mechanic-1-filler-ind.mp3	filler-ind
+109	This is a mug.	It never keeps coffee hot for very long and it's a little leaky on the bottom.	mug	negative	artifact	no	mug-11-some-neg.mp3	negative
+110	This is a mug.	It keeps coffee hot for a long time and is neither too light nor too heavy.	mug	positive	artifact	no	mug-11-some-neg.mp3	negative
+111	This is a mug.	It never keeps coffee hot for very long and it's a little leaky on the bottom.	mug	negative	artifact	no	mug-11-some-pos.mp3	positive
+112	This is a mug.	It keeps coffee hot for a long time and is neither too light nor too heavy.	mug	positive	artifact	no	mug-11-some-pos.mp3	positive
+113	Bill is a musician.	He is always out of tune and often plays the wrong note.	musician	negative	human	yes	musician-1-filler-def.mp3	filler-def
+114	Bill is a musician.	He expertly play five instruments and can learn a new tune without even trying.	musician	positive	human	yes	musician-1-filler-def.mp3	filler-def
+115	Bill is a musician.	He is always out of tune and often plays the wrong note.	musician	negative	human	yes	musician-1-filler-ind.mp3	filler-ind
+116	Bill is a musician.	He expertly play five instruments and can learn a new tune without even trying.	musician	positive	human	yes	musician-1-filler-ind.mp3	filler-ind
+117	That is Anna's necklace.	The clasp always breaks and the beads slip off.	necklace	negative	artifact	yes	necklace-1-filler-def.mp3	filler-def
+118	That is Anna's necklace.	It has the most beautiful beads I've ever seen in a very interesting pattern.	necklace	positive	artifact	yes	necklace-1-filler-def.mp3	filler-def
+119	That is Anna's necklace.	The clasp always breaks and the beads slip off.	necklace	negative	artifact	yes	necklace-1-filler-ind.mp3	filler-ind
+120	That is Anna's necklace.	It has the most beautiful beads I've ever seen in a very interesting pattern.	necklace	positive	artifact	yes	necklace-1-filler-ind.mp3	filler-ind
+121	This is a notebook.	The paper is so thin that I can see my writing on the other side and the ink always smears.	notebook	negative	artifact	no	notebook-11-some-neg.mp3	negative
+122	This is a notebook.	The paper is heavy enough to soak up the ink without seeing the writing on the opposite side, and it has a hard cover to protect the pages.	notebook	positive	artifact	no	notebook-11-some-neg.mp3	negative
+123	This is a notebook.	The paper is so thin that I can see my writing on the other side and the ink always smears.	notebook	negative	artifact	no	notebook-11-some-pos.mp3	positive
+124	This is a notebook.	The paper is heavy enough to soak up the ink without seeing the writing on the opposite side, and it has a hard cover to protect the pages.	notebook	positive	artifact	no	notebook-11-some-pos.mp3	positive
+125	This is a pen.	The ink always dries on the tip so that it barely writes, and even when it does write, it never feels very smooth.	pen	negative	artifact	no	pen-12-some-neg.mp3	negative
+126	This is a pen.	It can write upside-down and underwater, the ink dries instantly, and it was designed by NASA.	pen	positive	artifact	no	pen-12-some-neg.mp3	negative
+127	This is a pen.	The ink always dries on the tip so that it barely writes, and even when it does write, it never feels very smooth.	pen	negative	artifact	no	pen-12-some-pos.mp3	positive
+128	This is a pen.	It can write upside-down and underwater, the ink dries instantly, and it was designed by NASA.	pen	positive	artifact	no	pen-12-some-pos.mp3	positive
+129	That is Lisa's plate.	Its cracked and too shallow so food falls off every time you try to use it.	plate	negative	artifact	yes	plate-1-filler-def.mp3	filler-def
+130	That is Lisa's plate.	It has four sections, one for each part of your meal!	plate	positive	artifact	yes	plate-1-filler-def.mp3	filler-def
+131	That is Lisa's plate.	Its cracked and too shallow so food falls off every time you try to use it.	plate	negative	artifact	yes	plate-1-filler-ind.mp3	filler-ind
+132	That is Lisa's plate.	It has four sections, one for each part of your meal!	plate	positive	artifact	yes	plate-1-filler-ind.mp3	filler-ind
+133	Kelly is a professor.	She marks students down if she doesn't agree with their opinions, hates teaching, and is never available for office hours.	professor	negative	human	no	professor-12-some-neg.mp3	negative
+134	Kelly is a professor.	She grades fairly, takes an interest in her students' learning, and tries hard to make sure she's available for questions after class.	professor	positive	human	no	professor-12-some-neg.mp3	negative
+135	Kelly is a professor.	She marks students down if she doesn't agree with their opinions, hates teaching, and is never available for office hours.	professor	negative	human	no	professor-12-some-neg.mp3	positive
+136	Kelly is a professor.	She grades fairly, takes an interest in her students' learning, and tries hard to make sure she's available for questions after class.	professor	positive	human	no	professor-12-some-neg.mp3	positive
+137	This is Mina's rope.	It leaves slivers in your hand and is clearly starting to unravel.	rope	negative	artifact	yes	rope-1-filler-def.mp3	filler-def
+138	This is Mina's rope.	It is very strong and lightweight and won't give slivers!	rope	positive	artifact	yes	rope-1-filler-def.mp3	filler-def
+139	This is Mina's rope.	It leaves slivers in your hand and is clearly starting to unravel.	rope	negative	artifact	yes	rope-1-filler-ind.mp3	filler-ind
+140	This is Mina's rope.	It is very strong and lightweight and won't give slivers!	rope	positive	artifact	yes	rope-1-filler-ind.mp3	filler-ind
+141	These are scissors.	They're completely dull and only seem to bend the paper when I try to cut with them.	scissors	negative	artifact	no	scissors-12-some-neg.mp3	negative
+142	These are scissors.	They're really quite sharp and can cut a tin can without a problem.	scissors	positive	artifact	no	scissors-12-some-neg.mp3	negative
+143	These are scissors.	They're completely dull and only seem to bend the paper when I try to cut with them.	scissors	negative	artifact	no	scissors-12-some-pos.mp3	positive
+144	These are scissors.	They're really quite sharp and can cut a tin can without a problem.	scissors	positive	artifact	no	scissors-12-some-pos.mp3	positive
+145	That is Mary's shirt.	The shoulders are too narrow, and the heavy material makes her sweat a lot.	shirt	negative	artifact	yes	shirt-2-filler-def.mp3	filler-def
+146	That is Mary's shirt.	The material is lightweight, but it keeps her warm on a cold day.	shirt	positive	artifact	yes	shirt-2-filler-def.mp3	filler-def
+147	That is Mary's shirt.	The shoulders are too narrow, and the heavy material makes her sweat a lot.	shirt	negative	artifact	yes	shirt-2-filler-ind.mp3	filler-ind
+148	That is Mary's shirt.	The material is lightweight, but it keeps her warm on a cold day.	shirt	positive	artifact	yes	shirt-2-filler-ind.mp3	filler-ind
+149	These are shoes.	The soles are way too hard and there's no waterproofing to speak of.	shoes	negative	artifact	no	shoes-12-some-neg.mp3	negative
+150	These are shoes.	They're comfortable for walking long distances and are waterproof and breathable.	shoes	positive	artifact	no	shoes-12-some-neg.mp3	negative
+151	These are shoes.	The soles are way too hard and there's no waterproofing to speak of.	shoes	negative	artifact	no	shoes-12-some-pos.mp3	positive
+152	These are shoes.	They're comfortable for walking long distances and are waterproof and breathable.	shoes	positive	artifact	no	shoes-12-some-pos.mp3	positive
+153	This is Mark's stapler.	It can't staple more than a couple pages at a time and it constantly jams.	stapler	negative	artifact	yes	stapler-1-filler-def.mp3	filler-def
+154	This is Mark's stapler.	It could probably staple an entire book without trouble and it's always functioning perfectly.	stapler	positive	artifact	yes	stapler-1-filler-def.mp3	filler-def
+155	This is Mark's stapler.	It can't staple more than a couple pages at a time and it constantly jams.	stapler	negative	artifact	yes	stapler-1-filler-ind.mp3	filler-ind
+156	This is Mark's stapler.	It could probably staple an entire book without trouble and it's always functioning perfectly.	stapler	positive	artifact	yes	stapler-1-filler-ind.mp3	filler-ind
+157	Kelly is a student.	She has a D average in her classes and rarely attends lectures.	student	negative	human	yes	student-1-filler-def.mp3	filler-def
+158	Kelly is a student.	She studies hard every night, never misses a lecture, and always does the extra credit assignments.	student	positive	human	yes	student-1-filler-def.mp3	filler-def
+159	Kelly is a student.	She has a D average in her classes and rarely attends lectures.	student	negative	human	yes	student-1-filler-ind.mp3	filler-ind
+160	Kelly is a student.	She studies hard every night, never misses a lecture, and always does the extra credit assignments.	student	positive	human	yes	student-1-filler-ind.mp3	filler-ind

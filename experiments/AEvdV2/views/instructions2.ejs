@@ -1,0 +1,20 @@
+<div class="trialpartWrapper" style="text-align: left;">
+	<p><b>Practice</b></p>
+	<p>Occasionally in the experiment you will be asked a simple mathematics question to make sure you're paying attention.</p>
+
+  <p>For these, answer the question by using the numbers on the scale.</p>
+
+  <%= continueButton("Show an example!") %>
+</div>
+
+<div class="trialpartWrapper" style="text-align: left;">
+	<p>What is 4+2?</p>
+
+	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], rightAnswer: "6", feedbackID: "#feedback", feedbackWrong: "No, you were supposed to press RIGHTANSWER. Please answer the questions correctly.",  feedbackRight: "Great! RIGHTANSWER is the right answer."}) %>
+
+	<div id="feedback" style="padding:30px;"></div>
+</div>
+
+<div class="trialpartWrapper" style="text-align: left;">
+	<%= continueButton("Continue") %>
+</div>

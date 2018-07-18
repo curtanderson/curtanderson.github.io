@@ -1,7 +1,7 @@
 var Experigen =  {
 	settings: {
 
-		experimentName: "Anderson2017ExclamativeIntonation2Test", // use only A-Z, a-z, 0-9
+		experimentName: "Anderson2017ExclamativeIntonation2Final", // use only A-Z, a-z, 0-9
 
 		databaseServer: "http://db.phonologist.org/",
 

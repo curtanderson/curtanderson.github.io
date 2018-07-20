@@ -2,9 +2,9 @@
 # removing initial "http://" and tildes
 # and substituting slashes, etc. with periods
 # no hyphens/dashes, alas (known bug)
-experigen.sourceURL = "www.awesomeuniversity.edu.iamawesome.questionnaire"
+experigen.sourceURL = "curtanderson.github.io.experiments.test.web"
 # the following information comes from your settings.js file:
-experigen.experimentName = "Default"
+experigen.experimentName = "DefaultCurtAnderson"
 experigen.database = "http://db.phonologist.org/"
 
 # first, send some info to the server with the current 

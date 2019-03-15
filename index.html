@@ -11,9 +11,10 @@
 		@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito|Lato');
 
 			html, body {
-				font-family: "Cabin", Verdana, Helvetica, Tahoma, sans-serif;
+				/* font-family: "Cabin", Verdana, Helvetica, Tahoma, sans-serif; */
+				font-family: Avenir, Verdana, Helvetica, Tahoma, sans-serif;
 				font-size: 14px;
-				font-weight: 300;
+				font-weight: 400;
 				margin: 0 20px 20px 20px;
 				padding: 0 1%;
 				/* background-color: #2F2B2A; */
@@ -26,7 +27,8 @@
 			}
 
 			h1#name {
-				font-family: "Cabin";
+				/* font-family: "Cabin"; */
+				font-family: Avenir, Verdana, Helvetica, Tahoma, sans-serif;
 				text-align: left;
 				width: 100%;
 				font-size: 210%;
@@ -36,7 +38,8 @@
 			}
 
 			h2.institute {
-				font-family: "Cabin";
+				/* font-family: "Cabin"; */
+				font-family: Avenir, Verdana, Helvetica, Tahoma, sans-serif;
 				font-size: 100%;
 				font-weight: 300;
 				margin: 0;
@@ -84,7 +87,7 @@
 				margin: 1% 2% 0 0;
 			}
 
-			section#research {
+			section#main {
     			/* background-image: url("./pictures/slice/blue-fade.png");
     			background-repeat: no-repeat;
 				background-size: 100% 4px;
@@ -96,6 +99,13 @@
 				text-align: justify;
 				border-top: dotted 3px #CCC;
 				margin: 1% 0 0 0;
+			}
+
+			section#aboutme {
+				margin: 15px 0 15px 0;
+				border: solid 1px #CCC;
+				background-color: #F0F0F0;
+				padding: 0px 15px;
 			}
 
 			.date { font-weight: bold; }
@@ -158,7 +168,7 @@
 			}
 
 			img#thepicture {
-				border: solid #000 3px;
+				border: solid #000 2px;
 				margin: 0;
 				width: 100%;
 				/* opacity: .85; */
@@ -171,7 +181,7 @@
 		<header>
 			<h1 id="name">Curt Anderson</h1>
 			<h2 class="institute">DFG SFB 991: The Structure of Representations in Language, Cognition, and Science</h2>
-			<h2 class="institute">Heinrich-Heine-Universität Düsseldorf</h2>
+			<h2 class="institute">Heinrich-Heine-Universität Düsseldorf, Germany</h2>
 		</header>
 
 		<div id="sidebar">
@@ -179,25 +189,10 @@
 				<img id="thepicture" src="pictures/tree.jpg" alt="tree" />
 			</div>
 
-			<section id="aboutme">
-				<h3>About Me</h3>
-
-				<p>Hi, I'm Curt Anderson. I'm currently a postdoctoral researcher with <a href="http://www.sfb991.uni-duesseldorf.de/en/the-structure-of-representations-in-language-cognition-and-science/">SFB 991 at Heinrich-Heine-Universität Düsseldorf</a>. In my project, I am investigating the mechanisms of composition involved with attributive adjectives and the nominals they modify (see <a href="http://www.sfb991.uni-duesseldorf.de/en/c10/">the project page</a> for more information).</p>
-
-				<p>Broadly speaking, my research focuses on how linguistic meaning is structured. Currently, I'm involved in work examining interactions between the lexical semantics of adjectives and the nouns they modify. My recent work on attributive adjectives has focused on the representation of relational adjectives, how they differ from property adjectives, and how some relational adjectives have meanings that are related to roles. I'm also involved in projects looking at what meaning intonation carries in exclamatives, how context influences the choice of referent in nominalizations, and how to use computational linguistic methods in theoretical linguistic (especially lexical semantic) research.</p>
-
-				<p>Previous projects of mine have looked at the use of modifiers that allow approximate meanings to arise, non-canonical uses of <i>some</i> in exclamative constructions and approximation, and children's understanding of telicity.</p>
-
-				<p>I completed my PhD in Linguistics at Michigan State University in May 2016. In my <a href="work/dissertation.pdf">dissertation</a> I examined intensification and attenuation in English through the lens of exclamatives, approximation, and slack regulation.</p>
-
-				<p>You might be interested in <a href="http://www.msu.edu/~taniguc7">Ai Taniguchi's</a> research as well.</p>
-
-			</section>
-
 			<section id="news">
 				<h3>News</h3>
 
-				<p>With <a href="http://www.katherine-fraser.com/">Katie Fraser</a> (UPV/EHU), I'm organizing "Encoding Emotive Attitudes in Non-truth conditional Meaning," a workshop for the next DGfS meeting in Bremen, 6-8 March 2019. See the call for papers on <a href="http://sites.google.com/site/encodingemotiveattitudes">the website</a> for more details.</p>
+				<p>With <a href="http://www.katherine-fraser.com/">Katie Fraser</a> (UPV/EHU), I recently organized "Encoding Emotive Attitudes in Non-truth conditional Meaning," a workshop for the 41st DGfS meeting in Bremen, 6-8 March 2019. See <a href="http://www.dgfs2019.uni-bremen.de/programme/15">the program</a> for more details.</p>
 
 				<p>With <a href="http://jensfleischhauer.com/">Jens Fleischhauer</a> (Düsseldorf) and <a href="http://timm-lichte.de/">Timm Lichte</a> (Tübingen), I'm organizing a workshhop on modification of complex predicates, includin but not limited to idioms, light verb constructions, verb-verb compounds, and pseudo-coordination. The workshop will take place 23-24 May 2019 in Düsseldorf. See the call for papers on <a href="https://frames.phil.uni-duesseldorf.de/mocp2018-workshop/">the website</a> for more information on what questions we're hoping to address.</p>
 			</section>
@@ -212,7 +207,19 @@
 		</div>
 
 
-		<section id="research">
+		<section id="main">
+			<section id="aboutme">
+				<h3>About Me</h3>
+
+				<p>Hi, I'm Curt Anderson. I'm currently a postdoctoral researcher with <a href="http://www.sfb991.uni-duesseldorf.de/en/the-structure-of-representations-in-language-cognition-and-science/">SFB 991 at Heinrich-Heine-Universität Düsseldorf</a>. In my project, I am investigating the mechanisms of composition involved with attributive adjectives and the nominals they modify (see <a href="http://www.sfb991.uni-duesseldorf.de/en/c10/">the project page</a> for more information).</p>
+
+				<p>Broadly speaking, my research focuses on the representation of linguistic meaning, and how linguistic meaning interfaces with other linguistic systems, particularly syntax. Currently, I'm involved in work examining interactions between the lexical semantics of adjectives and the nouns they modify. My recent work on attributive adjectives has focused on the representation of relational adjectives, how they differ from property adjectives, and how some relational adjectives have meanings that are related to roles. I'm also involved in projects looking at what meaning intonation carries in exclamatives, how context influences the choice of referent in nominalizations, and how to use computational linguistic methods in theoretical linguistic (especially lexical semantic) research.</p>
+
+				<p>Previous projects of mine have looked at the use of modifiers that allow approximate meanings to arise, non-canonical uses of <i>some</i> in exclamative constructions and approximation, and children's understanding of telicity.</p>
+
+				<p>I completed my PhD in Linguistics at Michigan State University in May 2016. In my <a href="work/dissertation.pdf">dissertation</a> I examined intensification and attenuation in English through the lens of exclamatives, approximation, and slack regulation.</p>
+			</section>
+
 			<h3>Research</h3>
 
 			<section id="journal_articles">
@@ -241,7 +248,7 @@
 				<h4>Proceedings Papers</h4>
 
 				<ul class="work_items">
-					<li><span class="date">to appear</span>. <a class="title" href="./work/anderson-LSA-method-adverbs.pdf">Specification of methods and the semantics of method-oriented adverbs</a>. Proceedings of the Linguistic Society of America Annual Meeting 2019.
+					<li><span class="date">to appear</span>. <a class="title" href="./work/anderson-LSA-method-adverbs.pdf">Specification of methods and the semantics of method-oriented adverbs</a>. Proceedings of the Linguistic Society of America 2019.
 
 						<p class="abstract">Method-oriented adverbs have received comparatively little attention in the semantic literature on adverbs. I shed light on their semantics. These adverbs relate an event from the lexical semantics of their underlying adjective to the matrix event, and do so in a way similar to that of instruments. I use independently motivated event structure decompositions to model the interaction of adverb and verb. This study broadens our understanding of the semantics of adverbs, and how adverbial modifiers interact with the event structure of the verbs they modify.</p>
 					</li>

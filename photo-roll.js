@@ -63,7 +63,7 @@
     );
 
     fallback.replaceWith(grid);
-    caption.textContent = "Photographs by Curt Anderson";
+    caption.textContent = "Photographs by me";
   }
 
   document.addEventListener("DOMContentLoaded", enhancePhotoPlate);
